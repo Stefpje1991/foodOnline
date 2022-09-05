@@ -92,8 +92,8 @@
 .company-info-detail .company-info .text-holder .rating-star:before { color: #cccfd5; content: "\f005\f005\f005\f005\f005"; font-family: "icomoon"; font-size: 14px; letter-spacing: 3px; }
 .company-info-detail .company-info .text-holder .rating-star .rating-box { height: 16px; left: 0; overflow: hidden; position: absolute; top: 0; }
 .company-info-detail .company-info .text-holder .rating-star .rating-box:before { color: #ff981a; content: "\f005\f005\f005\f005\f005"; font-family: "icomoon"; font-size: 14px; letter-spacing: 3px; }
-.company-info-detail .company-info .text-holder span.reviews { color: #fff; display: inline-block; font: 300 14px/22px 'Open Sans', sans-serif; letter-spacing: 0; word-spacing: 0; text-transform: none; vertical-align: top; margin: 0 0 0 3px; }
-.company-info-detail .company-info .text-holder span.restaurant-title { color: #fff; font: 400 32px/34px 'Montserrat', sans-serif; letter-spacing: 0; word-spacing: 0; text-transform: none; margin: 0 0 9px 0; display: block; }
+.company-info-detail .company-info .text-holder span.reviews { color: #fff !important; display: inline-block; font: 300 14px/22px 'Open Sans', sans-serif; letter-spacing: 0; word-spacing: 0; text-transform: none; vertical-align: top; margin: 0 0 0 3px; }
+.company-info-detail .company-info .text-holder .text span.restaurant-title2 { color: #fff !important; font: 400 32px/34px 'Open Sans', sans-serif; letter-spacing: 0; word-spacing: 0; text-transform: none; margin: 0 0 3px 0; }
 .company-info-detail .company-info .text-holder .text { position: relative; padding: 0 0 0 20px; }
 .company-info-detail .company-info .text-holder .text i { position: absolute; left: 0; color: #fff; line-height: 26px; }
 .company-info-detail .company-info .text-holder .text p { color: #fff !important; font: 400 14px/24px 'Open Sans', sans-serif; letter-spacing: 0; word-spacing: 0; text-transform: none; margin: 0 0 3px 0; }
@@ -2812,7 +2812,7 @@ ul.sub-nav { text-align: left; }
 .add-menu-item { float: none; margin-top: 15px; }
 .pgk-action-btns a { display: block; margin-bottom: 10px; width: 100%; text-align: center; }
 .open-close-time.opening-time .time-sec { display: block; width: 100%; }
-.company-info-detail .company-info .text-holder span.restaurant-title { font-size: 22px !important; line-height: 22px !important; }
+.company-info-detail .company-info .text-holder span.restaurant-title2 { font-size: 22px !important; line-height: 22px !important; }
 .user-holder .choose-all-apply { float: left; }
 .buy-new-pakg-actions { position: static; }
 .comments ul li .thumb-list .text-holder h6 { display: block; margin-bottom: 15px; }
@@ -2893,7 +2893,7 @@ ul.sub-nav { text-align: left; }
 .service-list .list-title { padding-left: 0; padding-right: 25px; }
 .service-list .icon-holder { width: 20%; }
 .service-list .list-option .icon-cross-out { font-size: 12px; }
-.company-info-detail .company-info .text-holder span.restaurant-title { font-size: 18px !important; line-height: 20px !important; }
+.company-info-detail .company-info .text-holder span.restaurant-title2 { font-size: 18px !important; line-height: 20px !important; }
 .menu-itam-holder .element-title span { word-wrap: break-word; }
 .blog-detail .swiper-button-prev,
 .blog-detail .swiper-button-next { top: 35px; }
