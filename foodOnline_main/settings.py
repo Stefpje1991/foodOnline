@@ -142,3 +142,11 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+# Email configuration
+EMAIL_HOST = config('mailhost')
+EMAIL_PORT = config('mailport', cast=int)
+EMAIL_HOST_USER = config('mailaddress')
+EMAIL_HOST_PASSWORD = config('mailpassword')
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = config('default_from_email')
