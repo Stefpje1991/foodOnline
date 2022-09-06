@@ -13,8 +13,22 @@
     z-index: 99
 }
 
-.btn.btn-info{
+.btn{
     padding: 2px 1.75em;
     font-size: 12px;
     cursor: pointer;
+}
+
+.table-borderless td,
+.table-borderless th,
+.table-borderless tr{
+    border: 0;
+}
+
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
 }
