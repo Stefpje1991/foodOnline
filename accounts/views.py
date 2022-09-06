@@ -1,18 +1,15 @@
+from django.contrib import messages, auth
+from django.contrib.auth.decorators import login_required, user_passes_test
 from django.contrib.auth.tokens import default_token_generator
+from django.core.exceptions import PermissionDenied
 from django.shortcuts import render, redirect
 from django.utils.http import urlsafe_base64_decode
 
+from vendor.forms import VendorForm
 from .forms import UserForm
 from .models import User, UserProfile
-from django.contrib import messages, auth
-from vendor.forms import VendorForm
 from .utils import detectUser, send_verification_email
-from django.contrib.auth.decorators import login_required, user_passes_test
-from django.core.exceptions import PermissionDenied
-from vendor.models import Vendor
 
-
-# Create your views here.
 
 # Restrict the vendor from accessing the customerDashboard
 def check_role_vendor(user):
