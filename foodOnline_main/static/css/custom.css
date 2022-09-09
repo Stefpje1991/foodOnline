@@ -32,3 +32,12 @@
 .text-underline-hover:hover {
     text-decoration: underline;
 }
+
+.restaurant-title3{
+    color: #fff !important;
+    font: 400 32px/34px 'Open Sans', sans-serif;
+    letter-spacing: 0;
+    word-spacing: 0;
+    text-transform: none;
+    margin: 0 0 3px 0;
+}
